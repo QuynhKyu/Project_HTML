@@ -1,0 +1,280 @@
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*              BANNER CSS       */
+.banner {
+    margin-top: -170px;
+    height: 967px;
+    width: 100%;
+    background-image: url("image/banner (2).jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: table;
+}
+.banner h2{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: table-cell;
+}
+.banner span{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px #888888;
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+
+/*              NOW ME  CSS       */
+.now_me{
+    padding-left: 250px;
+    width: 100%;
+    height: 700px;
+    background: #ececec;
+    margin-top: 276px;
+    border: 1px solid #ececec;
+}
+.now_me .txt{
+    width: 100%;
+    height: 609px;
+    position: relative;
+    text-align: left;
+    margin-left: -200px;
+    margin-top: 142px;
+    padding-left: 50px;
+}
+.now_me  .story{
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.now_me .txt p{
+    font-size: 30px;
+    color: #aeaeae;
+    letter-spacing: 12px;
+}
+.now_me .txt span{
+    font-size: 50px;
+    color: #333333;
+    max-width: 700px;
+    margin-left: -2px;
+    display: block;
+    margin-top: 64px;
+}
+.now_me .image{
+    width: 630px;
+    height: 700px;
+    position: absolute;
+    top: -55px;
+    right: 30px;
+}
+/*              STORIES  CSS       */
+
+.stories{
+    height: 700px;
+    width: 100%;
+    margin-top: 222px;
+}
+.stories .left p{
+    font-size: 30px;
+    color: #aeaeae;
+    letter-spacing: 12px;
+}
+.stories .left span{
+    font-size: 50px;
+    color: #333333;
+    max-width: 474px;
+    margin-left: -2px;
+    display: block;
+    margin-top: 56px;
+    font-family: 'Crete Round', serif;
+}
+.stories .ex{
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.stories .right{
+    max-width: 540px;
+    margin-top: 120px;
+    font-size: 22px;
+    font-family: 'Old Standard TT', serif;
+    word-spacing: 2px;
+
+}
+/*              DISCOVER  CSS       */
+.discover {
+    height: 634px;
+    width: 100%;
+    background-image: url("image/discover.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    display: table;
+}
+.discover h2{
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 auto;
+    display: table-cell;
+}
+.discover span{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 1px #888888;
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+/*              OUR PHOTOGRAPHERS  CSS       */
+.our_photo {
+    height: 896px;
+    width: 100%;
+    background-image: url("image/map.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+.our_photo h4 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 200px;
+    font-family: 'Crete Round', serif;
+}
+.our_photo input[value = ""]{
+    padding:3px;
+    height:3px;
+    border:0;
+    margin:0;
+    border-radius: 10px;
+
+}
+.our_photo input[name = "submit1"]{
+    backfround-color:#b9b7b7;
+}
+.our_photo input[name = "submit"]{
+    backfround-color:#888888;
+}
+.our_photo .container{
+    display: inline-block;
+    margin-top: 78px;
+    width: auto;
+    height: 400px;
+    box-shadow: 3px 5px #f5f5f5;
+    background: #f8f8f8;
+
+}
+.our_photo .container #anh1{
+    border: 1px solid #f5f5f5;
+}
+.our_photo .container .col-photo-2 .img1{
+    position: relative;
+}
+.our_photo .container .col-photo-2 .icon-bar{
+    position: absolute;
+    top: 140px;
+    right: 30px;
+}
+.our_photo .col-photo-2 .icon-bar i{
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.our_photo .col-photo-2 .icon-bar #icon1{
+    background: white;
+    color: black;
+}
+
+/*              MY WORK  CSS       */
+.my_work{
+    background-color: #f5f5f5;
+    height: 1024px;
+    width: 100%;
+    padding: 50px 0;
+}
+.my_work .my-col-1{
+
+}
+.my_work .main-menu ul{
+    list-style: none;
+
+}
+
+
+/*              FOOTER  CSS       */
+.footer .menu{
+    margin-left: -65px;
+}
+.footer .menu ul{
+    list-style: none;
+    margin-top: 55px;
+    font-family: "Times New Roman";
+}
+.footer .menu li{
+    display: inline-block;
+    padding: 10px 25px;
+
+}
+.footer .menu a{
+    color: #222222;
+    font-size: 20px;
+}
+.footer .email input[name = "email"]{
+    width: 330px;
+    height: 55px;
+    border: 2px solid #f5f5f5;
+    border-radius: 2px;
+    position: relative;
+    margin-top: 76px;
+    letter-spacing: 2px;
+}
+.footer #icon2 {
+    position: absolute;
+    background: #333333;
+    color: white;
+    width: 65px;
+    height: 55px;
+    text-align: center;
+    font-size: 30px;
+    top: 76px;
+}
+.footer .icon{
+    margin-top: 125px;
+
+}
+.footer .icon i {
+    padding: 20px;
+    color: #bababa;
+    font-size: 20px;
+}
+.footer .note{
+    margin-top: 55px;
+    color: #bababa;
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+.footer .contact{
+    margin-top: 67px;
+}
+.footer #home{
+    color: black;
+    font-weight: bold;
+}
